@@ -1,6 +1,6 @@
 body {
-    background-color: wheat;
- }
+   background-color: blanchedalmond;
+}
 
  .Paragrafo {
     color: black;
@@ -11,9 +11,11 @@ body {
  }
 
  .Texto {
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
+    background-image: url(image/library-background-image.png);
  }
+
 
  .Rodape {
     position: fixed;
@@ -23,11 +25,15 @@ body {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
  }
 
  .Cabeçalho {
     text-align: center;
+ }
+
+ .content-header:hover {
+   color: violet;
  }
 
  .IMAGENS {
