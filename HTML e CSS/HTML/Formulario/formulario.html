@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <main class="main">
+
+        <form action="formulario.html" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="nome">Nome Completo: </label>
+                    <input class="dadospessoais" type="text" name="nome" id="nome" required maxlength="50"
+                        autocomplete="name">
+                </div>
+
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input class="dadospessoais" type="number" name="idade" id="idade" required>
+                </div>
+
+                <div>
+                    <label for="idade">Data de Nascimento:</label>
+                    <input class="dadospessoais" type="number" name="datanasc" id="datanasc" required>
+                </div>
+
+                <div>
+                    <label for="idade">Endereço:</label>
+                    <input class="dadospessoais" type="number" name="endereco" id="endereco" required>
+                </div>
+
+                <div class="div">
+                    <label for="email">E-mail:</label>
+                    <input class="dadospessoais" type="email" name="email" id="email" autocomplete="email" required>
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input class="dadospessoais" type="tel" name="telefone" id="telefone" autocomplete="tel" required>
+                </div>
+
+                <div>
+                    <label for="mascu">Masculino</label>
+                    <input type="radio" name="sexo" id="mascu" checked>
+
+                    <label for="femi">Feminino</label>
+                    <input type="radio" name="sexo" id="femi">
+                </div>
+
+            </fieldset>
+
+            <br>
+            <a href="biblioteca.html" rel="prev" target="_self"><input type="button" value="Enviar"></a>
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
