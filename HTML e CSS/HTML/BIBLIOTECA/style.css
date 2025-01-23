@@ -8,17 +8,19 @@ body {
    font-family: 'Poppins', sans-serif;
  }
 
+
  .Paragrafo {
     color: black;
  }
 
  .Texto {
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
     font-family: 'Poppins', sans-serif;
  }
 
  .footer {
+
     position: fixed;
     bottom: 0;
     left: 0;
@@ -29,6 +31,8 @@ body {
     text-align: center;
     padding: 1px;
     font-family: 'Poppins', sans-serif;
+
+
  }
 
  .wrapper {
@@ -56,9 +60,14 @@ body {
     transition: background-color 0.3s ease;
  }
 
+ .content-header:hover {
+   color: violet;
+ }
+
+
  #btnformulario {
-   background-color: #A0BEEE; 
-    /* /* display: flex; */
+    background-color: #A0BEEE; 
+    display: flex; 
     align-items: center;
     justify-content: center;
     border: none;
@@ -66,12 +75,12 @@ body {
     border-radius: 10px; /*arredonda a borda*/
     font-size: 15px;
     font-weight: 500; */
-    color: #ffffff;
-    cursor: pointer;
+    /* color: #ffffff; */
+    /* cursor: pointer;
     gap: 8px;
-    /* height: fit-content; */
-    /* box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); */
-    transition: background-color 0.3s ease;
+     height: fit-content; 
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; */
  }
 
  #btnformulario:hover {
@@ -86,7 +95,6 @@ body {
    background-color: #A0BEEE;
  }
 
- 
  
  nav ul {
    list-style: none;
@@ -125,5 +133,3 @@ body {
  
  
 
- 
- 

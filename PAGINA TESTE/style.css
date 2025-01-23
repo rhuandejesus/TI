@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Sigma{
+    background-color: #2A2937;
+    width: 80%;
+    color: #FFFFFF;
+}
+
+.Doomfist{
+    background-color: #212D3B;
+    width: 80%;
+    color: #FFFFFF;
+}
+
+.Reinhardt{
+    background-color: #402826;
+    width: 80%;
+    color: #FFFFFF;
+}
