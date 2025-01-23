@@ -5,10 +5,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    margin: 10px;
-    padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 
@@ -27,29 +23,19 @@ main {
     height: 100%;
     background-color: #f6f8ff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-
 }
+
 
 #form_title {
-    font-weight: 500;
-    color: #272727;
-    position: relative;
-}
-
-#form_title::after {
-    content: '';
     position: absolute;
     width: 100px;
     height: 3px;
     border-radius: 30px;
     background-color: #6366f1;
     left: 0;
-    bottom: 0;
-    position: relative;
-    background-image: url(image/library-background-image.png);
-    
+    bottom: 0;   
 }
 
 main {
@@ -70,7 +56,7 @@ label {
     align-items: center;
     background-color: #ffff;
     border-radius: 8px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px -3px rgba(44, 0, 0, 0.1);
     width: 150px;
 }
 
@@ -88,10 +74,7 @@ input {
     align-items: center;
 }
 
-#male:hover {
-    border-color: #A0BEEE;
-    background-color: #A0BEEE;
-}
+
 
 #female {
     display: flex;
@@ -99,11 +82,7 @@ input {
     align-items: center;
 }
 
-#female:hover {
-    border-color: #A0BEEE;
-    background-color: #A0BEEE;
-    position: left; 
-}
+
 
 fieldset{
     margin: 5px;
@@ -111,7 +90,6 @@ fieldset{
 
 .btn-submit{
     background-color: #A0BEEE; 
-    display: flex;
     align-items: center;
     justify-content: center;
     border: none;
@@ -131,9 +109,3 @@ fieldset{
     background-color: #8d96e8;
 }
 
-@media screen and (max-width: 500px) {}
-    #form_container {
-        width: 100%;
-        min-height: 100vh;
-        padding: 32px;
-    }
