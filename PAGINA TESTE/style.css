@@ -17,31 +17,6 @@ body {
     color: #fff;
 }
 
-/* Para telas com largura máxima de 768px (tablets) */
-@media (max-width: 768px) {
-    header {
-        /* Estilos para telas menores */
-        flex-direction: column;
-        /* Muda a direção dos elementos para vertical */
-        align-items: flex-start;
-        /* Alinha os elementos à esquerda */
-    }
-
-    nav ul {
-        flex-direction: column;
-        background-color: #333;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        transform: translateY(-100%);
-        transition: transform 0.3s ease-in-out;
-    }
-}
-
-
-
 #Logotipo {
     font-family: 'Poppins', sans-serif;
     color: #E50914;
@@ -54,10 +29,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    background-color: blueviolet;
+}
+
 
 .card-container {
-    gap: 20px;
     display: flex; /* Ou use justify-content: space-around para espaçar igualmente com margens nas extremidades */
+    background-color: red;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card {
@@ -67,9 +48,9 @@ body {
     border-radius: 10px; /*Arredonda a borda de acordo com os px*/
     overflow: hidden; /* Para cortar a imagem que ultrapassar a altura */
     margin: 10px;
-    position: relative;
     padding: 0;
     transition: all 0.3s;
+    background-color: white;
 }
 
 .card:hover img{
@@ -95,11 +76,8 @@ body {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
-
-
-
 
 footer {
     background-color: #000000;
@@ -119,14 +97,9 @@ footer {
     max-width: 150px;
 }
 
-nav {
-    overflow: hidden;
-}
-
 
 nav ul {
     list-style: none;
-    display: flex;
     justify-content: center;
     transition: transform 0.3s ease-in-out;
     margin: 0;
@@ -135,12 +108,11 @@ nav ul {
     justify-content: center;/* Centraliza os itens horizontalmente */
 }
 
-nav li {
+/* nav li {
     margin: 0 10px;
     align-items: center;
     justify-content: center;
-    align-items: center;
-}
+} */
 
 
 nav a {
@@ -152,13 +124,4 @@ nav a {
 
 nav a:hover {
     color: #E50914;
-}
-
-.social-media {
-    margin-top: 10px;
-}
-
-.social-media a {
-    margin: 0 5px;
-    color: #fff;
 }
