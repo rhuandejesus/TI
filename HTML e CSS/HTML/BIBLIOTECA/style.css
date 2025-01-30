@@ -59,7 +59,7 @@ body {
 
 
 
- #btnformulario {
+ #btnformulario{
     background-color: #A0BEEE; 
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@ body {
  .card {
    width: 200px; /* Ajuste a largura conforme necessário */
    border: 1px solid #ccc;
-   border-radius: 5px; /*Arredonda a borda de acordo com os px*/
+   border-radius: 10px; /*Arredonda a borda de acordo com os px*/
    overflow: hidden; /* Para cortar a imagem que ultrapassar a altura */
    margin: 10px;
  }
