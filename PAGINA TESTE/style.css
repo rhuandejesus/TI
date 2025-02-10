@@ -30,13 +30,13 @@ body {
 }
 
 main {
-    background-color: 
+    /* background-color:  */
 }
 
 
 .card-container {
     display: flex; /* Ou use justify-content: space-around para espaçar igualmente com margens nas extremidades */
-    background-color: ;
+    /* background-color: ; */
     flex-flow: row wrap;
     justify-content: center;
 }
