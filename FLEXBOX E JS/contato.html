@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/contato.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Blog de Viagens</h1>
+        <div class="hamburger" onclick="MenuHamburguer()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="menu" id="menu">
+          <a href="index.html">Início</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Fale Comigo</h2>
+    <form action="" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button class="button-form" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; 2025 Blog de Viagens</p>
+  </footer>
